@@ -27,9 +27,9 @@
     <link rel="apple-touch-icon" sizes="72x72" href="../images/icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="../images/icon-114x114.png">
 
-
   </head>
   <body>
+ 
 
     <div class="ugf-wraper">
       <div class="content-block">
@@ -186,12 +186,14 @@
                   </div>
                   <button class="btn btn-100">Send Your Donation &nbsp; &#10084;</button>
                 </form>
+                
                 <div class="ugf-block-separator">
                   <p>Or</p> 
                 </div>
-                <div class="alternet-payment">
+                <!-- <div class="alternet-payment">
                   <a href="#" class="btn">Donate with <img src="images/paypal.png" class="img-fluid" alt=""></a>
-                </div>
+                </div> -->
+                <div id="paypal-button-container"></div>
               </div>
             </div>
           </div>
@@ -209,5 +211,19 @@
     <script src="assets/js/bootstrap.min.js"></script>
 
     <script src="js/custom.js"></script>
+    <!-- <script src="https://www.paypal.com/sdk/js?client-id=AQ1gmcGnHItgebWw3SyRG6S_jmR9djg2wPWz34CqsCUnE_d-LFZ3Cvfsy4x0LbCpzgLLpglL24XjIMRN"> </script> -->
+    <script src="https://www.paypal.com/sdk/js?client-id=ATi3w3PMJJMqIUBA2qi_VyNbQU2Zjqkx6JGzBtA7BBgcCNeBgMumfj2D1q5dM6f6G1owC3Qp0hE3rxZQ"> </script>
+
+    <script src="js/paypal.js"></script>
+
+
   </body>
 </html>
+
+
+
+
+
+
+
+<!-- Add the checkout buttons, set up the order and approve the order -->
