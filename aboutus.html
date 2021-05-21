@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <style>
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+    </style>
+ <nav class="flex bg-white flex-wrap items-center justify-between p-4">
+    <div class="lg:order-2 w-auto lg:w-1/5 lg:text-center">
+      
+        <a class="text-4xl text-gray-800 font-Monaco font-heading" href="">
+    FundMed
+        </a>
+    </div>
+    
+    <div class="navbar-menu hidden lg:order-1 lg:block w-full lg:w-2/5">
+        <a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-indigo-600" href="./index.html">
+            Home
+        </a>
+        <a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-indigo-600" href="#">
+            About Us
+        </a>
+        <a class="block lg:inline-block mt-4 lg:mt-0 text-blue-900 hover:text-indigo-600" href="./resources/index.html">
+           Resources
+        </a>
+         <!-- <a class="block lg:inline-block mt-4 lg:mt-0 text-blue-900 hover:text-indigo-600" href="./medical camps/bloodDonation.html">
+          Medical Camps
+        </a>
+          -->
+       
+
+        <!-- Medical Camps -->
+
+    </div>
+    <div class="navbar-menu hidden lg:order-3 lg:block w-full lg:w-2/5 lg:text-right">
+        
+    
+      <a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-indigo-600" href="./fundraising/fundraise.html">
+           Donate 
+        </a>
+        <a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-indigo-600" href="./donationPage/index.html">
+          Fund Me 
+       </a>
+        <a class="block lg:inline-block mt-4 lg:mt-0 mr-10 text-blue-900 hover:text-indigo-600" href="./covid checker/version1/covid-1.html">
+          Covid Checker
+        </a>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Login
+        </button>
+    </div>
+</nav>
+
+
+<div class="about-section">
+    <h1>About Us Page</h1>
+    <p>Some text about who we are and what we do.</p>
+    <p>Resize the browser window to see that this page is responsive by the way.</p>
+  </div>
+</div>
+<h1 style="text-align:center; font-size: 40px; padding-bottom: 20px; padding-top: 20px; color:rgb(18, 18, 80);">Mentor</h1>
+<div style="text-align: center; margin-left: 40%;">
+    
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <div class="container">
+            <p></p>
+          <h2 style="font-size: x-large;">Ms. Pooja Sanga</h2>
+          <p class="title">Software Developer at IBM</p>
+          <a href="https://www.linkedin.com/in/poojasanga/"><i class="fab fa-linkedin" style="font-size: x-large;"></i></a>
+          <P></P>
+        </div>
+      </div>
+    </div>
+    </div></div>
+  <h1 style="text-align:center; color:rgb(18, 18, 80); padding-top: 20px; padding-bottom: 20px; font-size: 40px;">Our Team</h1>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <div class="container">
+            <p></p>
+          <h2 style="font-size: x-large;">Avinash Soni</h2>
+          <p class="title"> JECRC College Jaipur</p>
+          <p class="title">3rd Year CSE Student</p>
+          <a href="https://www.linkedin.com/in/asoni93/"><i class="fab fa-linkedin" style="font-size: x-large;"></i></a>
+          <a href="https://github.com/avinashsoni9829"><i class="fab fa-github-square" style="font-size: x-large; padding-left: 10px; color: black;"></i></a>
+          <a href="mailto:avinashsoni9829@gmail.com"> <i class="fas fa-envelope-square" style="font-size: x-large; padding-left: 10px; color: maroon;"></i></a>
+          <P></P>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+        <div class="card">
+          <div class="container">
+            <p></p>
+            <h2 style="font-size: x-large;">Kapil Garg</h2>
+            <p class="title"> JECRC College Jaipur</p>
+            <p class="title">3rd Year CSE Student</p>
+            <a href="https://www.linkedin.com/in/kapil16garg/"><i class="fab fa-linkedin" style="font-size: x-large;"></i></a>
+            <a href="https://github.com/kapilgarg16/"><i class="fab fa-github-square" style="font-size: x-large; padding-left: 10px; color: black;"></i></a>
+            <a href="mailto:kapil16garg@gmail.com"><i class="fas fa-envelope-square" style="font-size: x-large; padding-left: 10px; color: maroon;"></i></a>
+            <P></P>
+          </div>
+        </div>
+      </div>
+  
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <p></p>
+            <h2 style="font-size: x-large;">Danny Gupta</h2>
+            <p class="title"> JECRC College Jaipur</p>
+            <p class="title">3rd Year CSE Student</p>
+            <a href="https://www.linkedin.com/in/danny-gupta-ba57561a9"><i class="fab fa-linkedin" style="font-size: x-large;"></i></a>
+            <a href="https://github.com/danny-glitch"><i class="fab fa-github-square" style="font-size: x-large; padding-left: 10px; color: black;"></i></a>
+            <a href="mailto:dannygupta5@gmail.com"><i class="fas fa-envelope-square" style="font-size: x-large; padding-left: 10px; color: maroon;"></i></a>
+            <P></P>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <p></p>
+            <h2 style="font-size: x-large;">Bhanesh Palliwal</h2>
+            <p class="title"> JECRC College Jaipur</p>
+            <p class="title">3rd Year CSE Student</p>
+            <a href="https://www.linkedin.com/in/bhaneshpalliwal/"><i class="fab fa-linkedin" style="font-size: x-large;"></i></a>
+            <a href="https://github.com/BhaneshP"><i class="fab fa-github-square" style="font-size: x-large; padding-left: 10px; color: black;"></i></a>
+            <a href="mailto:bhaneshjain5@gmail.com"><i class="fas fa-envelope-square" style="font-size: x-large; padding-left: 10px; color: maroon;"></i></a>
+            <P></P>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <div class="container">
+            <p></p>
+            <h2 style="font-size: x-large;">Chirag Asawa</h2>
+            <p class="title"> JECRC College Jaipur</p>
+            <p class="title">3rd Year CSE Student</p>
+            <a href="https://www.linkedin.com/in/chirag-asawa-056749170/"><i class="fab fa-linkedin" style="font-size: x-large;"></i></a>
+            <a href="https://github.com/BhaneshP"><i class="fab fa-github-square" style="font-size: x-large; padding-left: 10px; color: black;"></i></a>
+            <a href="mailto:chiragasawa.cse22@jecrc.ac.in"><i class="fas fa-envelope-square" style="font-size: x-large; padding-left: 10px; color: maroon;"></i></a>
+            <P></P>
+          </div>
+        </div>
+      </div>
+    
+ 
+    
+
+  <script src="https://kit.fontawesome.com/b9bc96dd1a.js" crossorigin="anonymous"></script>
+</body>
+</html>
